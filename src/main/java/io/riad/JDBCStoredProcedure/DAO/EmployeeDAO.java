@@ -1,6 +1,6 @@
 package io.riad.JDBCStoredProcedure.DAO;
 
-public class EmployeeDAO {
+public interface EmployeeDAO {
 
 	
 	

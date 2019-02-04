@@ -1,5 +1,8 @@
 package io.riad.JDBCStoredProcedure.DAO;
 
-public class DepositorDAO {
+public interface DepositorDAO {
+	
+	public boolean showDepositorNameAccountNumberBalanceFromDepositorAccount();
+	public boolean showDepositorNameAccountNumberBalanceFromDepositorAccountWithInputBalance(int balance);
 
 }

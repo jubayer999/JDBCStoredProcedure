@@ -1,5 +1,7 @@
 package io.riad.JDBCStoredProcedure.DAO;
 
-public class LoanDAO {
+public interface LoanDAO {
+	
+	public boolean showAllBranchNameWhoHaveLoan();
 
 }

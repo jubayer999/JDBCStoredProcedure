@@ -1,5 +1,10 @@
 package io.riad.JDBCStoredProcedure.DAO;
 
-public class BranchDAO {
+public interface BranchDAO {
+	
+	public boolean showAllBranchDetails();
+	
+	public boolean showBranchNameAssetwithMinMaxInput(int min,int max);
+	public boolean showBranchNameAssetInThousand();
 
 }
